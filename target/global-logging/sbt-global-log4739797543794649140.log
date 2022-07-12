@@ -1,0 +1,84 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 17.0.2)
+[debug]       Load.loadUnit: plugins took 226.7852ms
+[debug]       Load.loadUnit: defsScala took 0.5239ms
+[debug] [Loading] Scanning directory C:\Users\rikys\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\rikys\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 36.6575 ms
+[debug]           Load.resolveProject(global-plugins) took 66.8345ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\rikys\.sbt\1.0\plugins, plugins: List(<none>))) took 143.403ms
+[debug] [Loading] Done in C:\Users\rikys\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 186.9048ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4174ms
+[debug]     Load.loadUnit(file:/C:/Users/rikys/.sbt/1.0/plugins/, ...) took 433.7294ms
+[debug]   Load.apply: load took 699.1188ms
+[debug]   Load.apply: resolveProjects took 8.8045ms
+[debug]   Load.apply: finalTransforms took 81.7813ms
+[debug]   Load.apply: config.delegates took 12.6959ms
+[debug]   Load.apply: Def.make(settings)... took 721.1312ms
+[debug]   Load.apply: structureIndex took 353.7831ms
+[debug]   Load.apply: mkStreams took 16.7711ms
+[info] loading global plugins from C:\Users\rikys\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7750.5862ms
+[debug]           Load.loadUnit: plugins took 34.1619ms
+[debug]           Load.loadUnit: defsScala took 0.0071ms
+[debug] [Loading] Scanning directory C:\Users\rikys\Desktop\Nuova cartella\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\rikys\Desktop\Nuova cartella\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.3443 ms
+[debug]               Load.resolveProject(nuova-cartella-build) took 2.2946ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id nuova-cartella-build, base: C:\Users\rikys\Desktop\Nuova cartella\project, plugins: List(<none>))) took 13.7444ms
+[debug] [Loading] Done in C:\Users\rikys\Desktop\Nuova cartella\project, returning: (nuova-cartella-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 16.3251ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.0299ms
+[debug]         Load.loadUnit(file:/C:/Users/rikys/Desktop/Nuova%20cartella/project/, ...) took 51.8052ms
+[debug]       Load.apply: load took 54.509ms
+[debug]       Load.apply: resolveProjects took 0.2012ms
+[debug]       Load.apply: finalTransforms took 19.3825ms
+[debug]       Load.apply: config.delegates took 1.0151ms
+[debug]       Load.apply: Def.make(settings)... took 151.1641ms
+[debug]       Load.apply: structureIndex took 59.5135ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from C:\Users\rikys\Desktop\Nuova cartella\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 833.5087ms
+[debug]     Load.loadUnit: defsScala took 0.0043ms
+[debug] [Loading] Scanning directory C:\Users\rikys\Desktop\Nuova cartella
+[debug]       Load.loadUnit: mkEval took 8.7166ms
