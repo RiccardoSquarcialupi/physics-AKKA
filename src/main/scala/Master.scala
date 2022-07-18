@@ -79,8 +79,8 @@ object Master:
   def checkIterAndStop(workers: Seq[ActorRef[WorkerActor.Command]], currentIter: Long, maxIter: Int, timer: Option[Timer]): Unit =
     if (currentIter == maxIter) {
       sendStop(workers)
-      
-      if !timer.isEmpty then
+
+      if timer.isDefined then
         val time = timer.get.stop()
         println("Simulation time:" + time + " ms")
       Behaviors.stopped
